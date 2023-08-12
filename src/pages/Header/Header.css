@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+.signIn {
+	background-color: rgb(60, 93, 255);
+	border-radius: 6px;
+	padding: 10px 70px;
+}
+
+.signIn:hover {
+	background-color: rgb(231, 116, 22);
+}
+
+.navbar-toggle {
+	color: rgb(231, 116, 22);
+}
+
+.nav-link:hover {
+	color: rgb(231, 116, 22); 
+}
+
+.orange {
+	color: rgb(231, 116, 22);
+}
+
+@media (max-width: 720px) {
+	.bg-orange {
+		background-color: #fe8303 !important;
+		color: white;
+	}
+}
