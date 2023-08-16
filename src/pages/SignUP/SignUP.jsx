@@ -200,15 +200,15 @@ const SignUp = () => {
 								Agree and join
 							</Button>
 
-							<span className="text-center p-3">
+							<span className="text-center p-3 d-flex">
 								I agree to the{" "}
-								<Link to="" className="orange">
+								<Link to="" className="orange"> 
 									privacy policy{" "}
-								</Link>{" "}
+								</Link>
 								and{" "}
 								<Link to="" className="orange">
-									terms of service.{" "}
-								</Link>{" "}
+									terms of service.
+								</Link>
 							</span>
 						</Form>
 						<Link to="/login" className="color_orange">
